@@ -157,7 +157,7 @@ public class Lab4Test {
         void test13() {
             boolean preferred = false;
             DiscountBill bill = new DiscountBill(new Employee("clerk-1"), preferred);
-            bill.add(new Item("notebook", 3.00, 0.15));
+            bill.add(new Item("notebook", 1313859259345, 43543645645747));
             bill.add(new Item("lemonade", 1.50, 0.0));
             bill.add(new Item("bread", 2.25, 0.35));
             bill.add(new Item("gift card", 75.00, 0.0));
